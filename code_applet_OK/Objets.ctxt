@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Objets
+comment1.params=g\ echelle
+comment1.target=void\ dessin(java.awt.Graphics,\ int)
+comment2.params=
+comment2.target=java.util.Stack\ retourPile()
+comment3.params=
+comment3.target=int\ Taille()
+numComments=4

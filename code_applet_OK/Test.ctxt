@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Test
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ init()
+comment3.params=
+comment3.target=void\ destroy()
+comment4.params=
+comment4.target=void\ start()
+comment5.params=
+comment5.target=void\ stop()
+comment6.params=e
+comment6.target=void\ processEvent(java.awt.AWTEvent)
+comment7.params=a\ x\ y
+comment7.target=void\ setSize(int,\ int,\ int)
+comment8.params=ev
+comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=9

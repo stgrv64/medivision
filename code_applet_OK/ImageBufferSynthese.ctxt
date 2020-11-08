@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ImageBufferSynthese
+comment1.params=X\ Y
+comment1.target=ImageBufferSynthese(int,\ int)
+numComments=2

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Images
+comment1.params=g
+comment1.target=void\ Map(java.awt.Graphics)
+comment2.params=g\ a\ b\ A\ B
+comment2.target=void\ MapZone(java.awt.Graphics,\ int,\ int,\ int,\ int)
+comment3.params=g\ a\ b\ A\ B\ echelle
+comment3.target=void\ MapZoneEchelle(java.awt.Graphics,\ int,\ int,\ int,\ int,\ int)
+comment4.params=x\ y\ Rr\ Gg\ Bb
+comment4.target=void\ setPixel(int,\ int,\ int,\ int,\ int)
+comment5.params=x\ y\ NB
+comment5.target=void\ setPixel(int,\ int,\ int)
+comment6.params=
+comment6.target=int\ getX()
+comment7.params=
+comment7.target=int\ getY()
+numComments=8

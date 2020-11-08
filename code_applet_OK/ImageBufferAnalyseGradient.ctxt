@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ImageBufferAnalyseGradient
+comment1.params=path\ ap
+comment1.target=ImageBufferAnalyseGradient(java.lang.String,\ java.applet.Applet)
+comment2.params=
+comment2.target=double[][]\ getGradient()
+comment3.params=g
+comment3.target=void\ MapGra(java.awt.Graphics)
+comment4.params=g\ a\ b\ A\ B
+comment4.target=void\ MapZoneGra(java.awt.Graphics,\ int,\ int,\ int,\ int)
+numComments=5
