@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ImageBuffer
+comment1.params=x\ y\ Rr\ Gg\ Bb
+comment1.target=void\ setPixel(int,\ int,\ int,\ int,\ int)
+comment2.params=x\ y\ NB
+comment2.target=void\ setPixel(int,\ int,\ int)
+comment3.params=g
+comment3.target=void\ Map(java.awt.Graphics)
+comment4.params=g\ a\ b\ A\ B\ echelle
+comment4.target=void\ MapZoneEchelle(java.awt.Graphics,\ int,\ int,\ int,\ int,\ int)
+comment5.params=g\ a\ b\ A\ B
+comment5.target=void\ MapZone(java.awt.Graphics,\ int,\ int,\ int,\ int)
+numComments=6

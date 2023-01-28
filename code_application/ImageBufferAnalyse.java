@@ -2,21 +2,19 @@ import java.awt.MediaTracker ;
 import java.awt.Image ;
 import java.awt.image.PixelGrabber ;
 import java.awt.image.MemoryImageSource ;
-
-import javax.imageio.ImageIO;
+import java.applet.Applet ;
 
 //###################################################################################################################################
 
-public class ImageBufferAnalyse extends ImageBuffer
+class ImageBufferAnalyse extends ImageBuffer
 {
 	private MediaTracker 		tracker ;
 	private PixelGrabber 		pg ;
 	private Image 				img  ;
 	//=======================================================================================================================
-	ImageBufferAnalyse(String path) {
-
-		// img = ap.getImage(ap.getCodeBase(), path );
-		img = ImageIO.read(new File(path)) ;
+	ImageBufferAnalyse(String path,Applet ap)
+	{
+		img = ap.getImage(ap.getCodeBase(), path );
 		
 		tracker = new MediaTracker(this) ;
  		tracker.addImage(img, 0) ;

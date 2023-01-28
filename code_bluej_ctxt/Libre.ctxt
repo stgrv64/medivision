@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Libre
+comment1.params=pile
+comment1.target=Libre(java.util.Stack)
+comment2.params=
+comment2.target=int\ Taille()
+comment3.params=
+comment3.target=java.util.Stack\ retourPile()
+comment4.params=g\ echelle
+comment4.target=void\ dessin(java.awt.Graphics,\ int)
+comment5.params=
+comment5.target=void\ RemplissagePoints()
+numComments=6

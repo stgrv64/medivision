@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ImageBufferAnalyse
+comment1.params=path\ ap
+comment1.target=ImageBufferAnalyse(java.lang.String,\ java.applet.Applet)
+numComments=2

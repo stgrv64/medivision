@@ -9,7 +9,7 @@ import java.lang.String ;
 
 //###################################################################################################################################
 
-class ImageBuffer extends Applet
+class ImageBuffer extends Image
 {
 	private MediaTracker 		tracker ;
 	private PixelGrabber 		pg ;
@@ -33,11 +33,13 @@ class ImageBuffer extends Applet
 		mem = new MemoryImageSource(X, Y, pixels, 0, X) ;
 	}
 	//=======================================================================================================================
-	ImageBuffered(String path,Applet ap, int echelle)
+	ImageBuffered(String path, int echelle)
 	{
 		this.echelle = echelle; 
 		
-		img = ap.getImage(ap.getCodeBase(), path );
+		// img = ap.getImage(ap.getCodeBase(), path );
+		img = ImageIO.read(new File(path)) ;
+
 		tracker = new MediaTracker(this) ;
  		tracker.addImage(img, 0) ;
  		try { tracker.waitForID(0); } catch (InterruptedException e ) {}

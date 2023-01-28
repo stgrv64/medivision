@@ -7,10 +7,10 @@ import javax.swing.border.*;
 
 //####################################################################################################################################################
 /** Cette classe initialise l'applet 
-* par la création des objets nécessaires. 
+* par la crï¿½ation des objets nï¿½cessaires. 
 */
 
-public class Test extends Applet implements ActionListener
+public class Test extends JFrame implements ActionListener
 {     
 	private ControlMethods      control[]  ;
     private ControlParameters   control2[]  ;    
@@ -27,7 +27,7 @@ public class Test extends Applet implements ActionListener
 	/** Initialise the applet by creating objects linked to a table of frames, 
 	* which truely permits to see the multi-thread evolving front on canvas. 
 	*/    
-    public void init() 
+    public void Test() 
     {   
         fra1     = new JFrame[5] ;
         fra2     = new JFrame[5] ;
@@ -35,7 +35,7 @@ public class Test extends Applet implements ActionListener
         canva    = new Canva[5] ;
         control  = new ControlMethods[5] ;
         control2 = new ControlParameters[5] ;
-        sp               = new JScrollPane[5] ;
+        sp       = new JScrollPane[5] ;
         
         pa = new JPanel() ;
         pa.setLayout(new FlowLayout()) ;
@@ -46,45 +46,22 @@ public class Test extends Applet implements ActionListener
         
         pa.setBackground(new Color(220,120,170));
         pa.add(help) ;
-                pa.add(bou) ;
-                pa.add(exit) ;
-                
-                setLayout(new BorderLayout()) ;
-                setBackground(new Color(220,120,170));
-                add("North",new Label("    - L'approche LEVELSET en action -")) ;
-                add("Center",pa) ;
-                add("South",new Label(" - S. Gravois - stgrv@hotmail.com - © 2003 -")) ;
-                setSize(290,80) ;
-                
-                show() ;
-    }
-        //=======================================================================================================================
-    public void destroy() 
-    {
-    }
-        //=======================================================================================================================
-    public void start() 
-    {
-    }
-        //=======================================================================================================================
-    public void stop() 
-    {
-        }
-        //=======================================================================================================================
-    public void processEvent(AWTEvent e) 
-    {
-        if (e.getID() == Event.WINDOW_DESTROY || e.getID() == Event.ESCAPE ) 
-            System.exit(0);
-    }
-        //=======================================================================================================================
-    public void setSize(int a,int x,int y)
-    {   
-                fra3[a].setSize(x+10,y+50) ; fra2[a].show(); 
+        pa.add(bou) ;
+        pa.add(exit) ;
+
+        setLayout(new BorderLayout()) ;
+        setBackground(new Color(220,120,170));
+        add("North",new Label("    - L'approche LEVELSET en action -")) ;
+        add("Center",pa) ;
+        add("South",new Label(" - S. Gravois - stgrv@hotmail.com - ï¿½ 2003 -")) ;
+        setSize(290,80) ;
+
+        show() ;
     }
     //=======================================================================================================================
-    /** Permet le traitement des événements liés aux boutons de création
+    /** Permet le traitement des ï¿½vï¿½nements liï¿½s aux boutons de crï¿½ation
     * et desctruction d'un ensemble de frames.
-	* @param ev est l'événement reçu
+	* @param ev est l'ï¿½vï¿½nement reï¿½u
 	*/  
     public  void actionPerformed(ActionEvent ev) 
     {   
